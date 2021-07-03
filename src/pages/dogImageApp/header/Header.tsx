@@ -3,7 +3,9 @@ export function Header() {
         <div>
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <p className="navbar-brand">犬画像ギャラリー</p>
+                    <a className="navbar-brand" href="#">
+                        犬画像ギャラリー
+                    </a>
                 </div>
             </nav>
         </div>

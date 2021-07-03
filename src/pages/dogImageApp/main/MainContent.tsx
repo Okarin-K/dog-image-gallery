@@ -24,7 +24,7 @@ export function MainContent() {
     }
 
     return (
-        <div>
+        <div className="container mt-3">
             <FormApp onFormSubmit={reloadImages} />
             <Gallery urls={urls} />
         </div>
