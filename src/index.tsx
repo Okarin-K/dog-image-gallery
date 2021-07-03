@@ -2,12 +2,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './pages/app/App';
+import { DogImageApp } from './pages/dogImageApp/main/DogImageApp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <DogImageApp />
     </React.StrictMode>,
     document.getElementById('root')
 );
