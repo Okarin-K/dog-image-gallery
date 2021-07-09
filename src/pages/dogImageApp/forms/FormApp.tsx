@@ -11,8 +11,9 @@ export function FormApp(props: FormProps) {
                 }
             >
                 <option value="shiba">柴犬</option>
-                <option value="akita">秋田県</option>
+                <option value="akita">秋田犬</option>
                 <option value="beagle">ビーグル</option>
+                <option value="bulldog">ブルドッグ</option>
             </select>
         </div>
     );
